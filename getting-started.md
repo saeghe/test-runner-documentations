@@ -1,12 +1,12 @@
-# Saeghe Test Runner Package
+# Test Runner Package
 
 ## Introduction
 
-Saeghe Test Runner Package is a simple solution to define and run tests for a PHP library.
+Test Runner Package is a simple solution to define and run tests for a PHP library.
 
 ## Installation
 
-You can simply install this package using Saeghe by running the following command:
+You can simply install this package by running the following command:
 
 ```shell
 saeghe add git@github.com:saeghe/test-runner.git
@@ -152,9 +152,9 @@ test(
 
 ### Build and Run
 
-When you use Saeghe to build your project, your tests also will get built.
+When you build your project, your tests also will get built.
 As you can see in the `saeghe.config.json` file, there is an `executable` section in this file.
-Saeghe will use this section to make a link file named `test-runner` to the Test Runner's `run` file.
+This section will get used to make a link file named `test-runner` to the Test Runner's `run` file.
 Therefore, you can run your tests after the build by running:
 
 ```shell
