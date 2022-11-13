@@ -9,7 +9,7 @@ Test Runner Package is a simple solution to define and run tests for a PHP libra
 You can simply install this package by running the following command:
 
 ```shell
-saeghe add git@github.com:saeghe/test-runner.git
+saeghe add https://github.com/saeghe/test-runner.git
 ```
 
 ## Usage
